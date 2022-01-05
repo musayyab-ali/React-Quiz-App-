@@ -1,20 +1,59 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Navbar from "./navbar";
 
 import Footer from "./footer";
-// import Usestates from "../../allStates/usestates";
-// import Effect from "../../allStates/Effect";
+import { IncrementNumber } from "../../Context/Actions";
+import { DecrementNumber } from "../../Context/Actions";
+
+import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 const Home = () => {
+  debugger;
+  const changeNumber = useSelector((state) => state.changeNumber);
+  const dispatch = useDispatch;
+  console.log(changeNumber);
   return (
     <>
-      <Navbar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <div className="App">
+        <Navbar />
+        <br />
+        <br />
+        <br />
+
+        <div className="main-div">
+          <div class="container1">
+            <h1>Increment/Decrement counter</h1>
+            <h4>using React and Redux</h4>
+            <div className="quantity">
+              <a
+                className="quantity__minus"
+                title="Decrement"
+                onClick={() => dispatch(DecrementNumber())}
+              >
+                <span>-</span>
+              </a>
+              <input
+                name="quantity"
+                type="text"
+                className="quantity__input"
+                value={changeNumber}
+              />
+              <a
+                className="quantity__plus"
+                title="Increment"
+                onClick={() => dispatch(IncrementNumber(5))}
+              >
+                <span>+</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <Footer />
+      </div>
     </>
   );
 };
