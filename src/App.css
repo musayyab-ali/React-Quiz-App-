@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .App-logo {
@@ -26,6 +28,80 @@
 
 .App-link {
   color: #61dafb;
+}
+.blogcard {
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
+  background-color: rgb(222, 228, 222);
+  color: #000;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  background-color: rgb(236, 107, 20);
+  color: rgb(235, 232, 232);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.title:hover {
+  background: #000;
+  box-shadow: 0px 2px 10px 5px #97b1bf;
+  color: #fff;
+}
+.discription {
+  background-color: rgb(247, 243, 241);
+  color: rgb(12, 5, 5);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.discription:hover {
+  background: rgb(241, 240, 239);
+  box-shadow: 0px 2px 10px 5px #97b1bf;
+  color: #000;
+}
+/*Button Three*/
+.button-three {
+  position: relative;
+  background-color: #f8f5f5;
+  border: none;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.button-three:hover {
+  background: rgb(245, 93, 5);
+  box-shadow: 0px 2px 10px 5px #97b1bf;
+  color: #000;
+}
+
+.button-three:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button-three:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }
 
 @keyframes App-logo-spin {
