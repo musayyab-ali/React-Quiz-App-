@@ -7,7 +7,7 @@ const BlogCard = (props) => {
   return (
     <>
       <div className="App">
-        <div className="blogcard">
+        <div className="cards">
           <h2 className="title">{props.title}</h2>
           <p className="discription">{props.discription}</p>
         </div>

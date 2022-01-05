@@ -222,6 +222,7 @@ header {
 .work-container .sub-heading {
   font-size: 2rem;
   font-weight: normal;
+  color: #000;
 }
 
 .fontawesome-style {
@@ -318,7 +319,8 @@ header {
 }
 
 .work-container-subdiv:hover {
-  background-color: var(--bgcolor);
+  background-color: #ced4da;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 

@@ -41,6 +41,36 @@
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
 }
+.cards {
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
+  background-color: rgb(222, 228, 222);
+  color: #000;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  width: 60%;
+}
+.servicecard {
+  margin: 16px;
+  padding: 160px;
+  box-sizing: border-box;
+  border-radius: 5px black;
+  /* width: 100%; */
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 7px 10px rgba(10, 10, 10, 0.911);
+  background-color: rgb(252, 245, 245);
+  color: #000;
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
 .title {
   background-color: rgb(236, 107, 20);
   color: rgb(235, 232, 232);
