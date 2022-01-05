@@ -26,26 +26,26 @@ const Home = () => {
             <h1>Increment/Decrement counter</h1>
             <h4>using React and Redux</h4>
             <div className="quantity">
-              <a
+              <Link
                 className="quantity__minus"
                 title="Decrement"
                 onClick={() => dispatch(DecrementNumber())}
               >
                 <span>-</span>
-              </a>
+              </Link>
               <input
                 name="quantity"
                 type="text"
                 className="quantity__input"
                 value={changeNumber}
               />
-              <a
+              <Link
                 className="quantity__plus"
                 title="Increment"
                 onClick={() => dispatch(IncrementNumber(5))}
               >
                 <span>+</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
