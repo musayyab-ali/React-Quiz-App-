@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import BlogCard from "./BlogCard";
 import { isArrayEmpty } from "./Utils";
 // import "./App.css";
 const Blog = () => {
-  const [state, setstate] = useState();
+  // const [state, setstate] = useState();
 
   const blogArr = [
     {
@@ -41,11 +41,11 @@ const Blog = () => {
         );
       });
 
-  const onbuttonbyclick = () => {
-    setstate((value) => {
-      return !value;
-    });
-  };
+  // const onbuttonbyclick = () => {
+  //   setstate((value) => {
+  //     return !value;
+  //   });
+  // };
 
   return (
     <>

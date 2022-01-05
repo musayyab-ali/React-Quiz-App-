@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import servicedata from "../../Constantdata/Servicesdata";
 
 function Service() {
-  const [serviceData, setServiceData] = useState(servicedata);
+  const [serviceData] = useState(servicedata);
 
   return (
     <>
