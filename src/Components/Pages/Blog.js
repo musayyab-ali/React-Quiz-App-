@@ -49,10 +49,11 @@ const Blog = () => {
 
   return (
     <>
-      <button onClick={onbuttonbyclick} type="button" className="button-three">
+      {/* <button onClick={onbuttonbyclick} type="button" className="button-three">
         Show && Hide Blog
       </button>
-      <div>{state ? blogtitle : null}</div>;
+      <div>{state ? blogtitle : null}</div>; */}
+      {blogtitle}
     </>
   );
 };

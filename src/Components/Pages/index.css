@@ -12,7 +12,7 @@
 :root {
   --bgcolor: #f1f5fd;
   --primary-color: #6f5de7;
-  --text-color: #828286;
+  --text-color: #f6f6fc;
   --main-text-color: #333333;
 }
 
@@ -38,29 +38,36 @@ h6 {
                         -------------------------------------------------------*/
 
 .navbar-bg {
-  background-color: var(--bgcolor);
+  background-color: #010231;
+  color: #fff;
   padding: 2rem 0;
   z-index: 99;
   position: relative;
+  box-shadow: 0 7px 10px rgba(24, 5, 14, 0.911);
 }
 
 .navbar-brand {
   font-size: 2.5rem;
 }
-
+.nav-link {
+  color: #fff;
+}
 .navbar li {
   padding: 0 2rem;
+  color: #fff;
 }
 
 .navbar li a {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: lighter;
   position: relative;
+  color: #fff;
 }
 
 .navbar li a:hover {
-  color: var(--primary-color) !important;
-  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+  color: rgb(236, 107, 20) !important;
+  /* text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5); */
+  text-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
 }
 
 .btn-style {
@@ -68,8 +75,9 @@ h6 {
   height: 4rem;
   border-radius: 2rem;
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: rgb(236, 107, 20);
   text-transform: capitalize;
+  text-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
   font-size: 1.6rem;
 }
 
@@ -80,7 +88,7 @@ h6 {
 .btn-style:hover {
   border: 0.1rem solid var(--primary-color);
   background-color: transparent;
-  color: var(--primary-color);
+  /* background-color: rgb(236, 107, 20); */
   box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
 }
 
@@ -93,7 +101,7 @@ h6 {
 
 .btn-style-border:hover {
   color: #fff;
-  background-color: var(--primary-color);
+  background-color: rgb(236, 107, 20);
   text-transform: capitalize;
 }
 
@@ -397,8 +405,13 @@ header {
 
 footer {
   padding: 5rem 0;
-  background-color: #182334;
+  background-color: #010231;
   color: #fff;
+  box-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
+  margin-bottom: 100px;
+  /* width: 90%; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 footer h2 {
@@ -415,12 +428,12 @@ footer li {
 }
 
 footer li:hover {
-  color: var(--primary-color);
+  color: rgb(236, 107, 20) !important;
 }
 
 footer .fontawesome-style {
   font-size: 2.3rem;
-  color: var(--primary-color);
+  color: rgb(236, 107, 20) !important;
   background-color: transparent;
   width: 0rem;
   height: 0rem;
