@@ -6,7 +6,6 @@ import Blog from "./Components/HomeLayout/Blogs";
 import Service from "./Components/HomeLayout/Services";
 import About from "./Components/HomeLayout/About";
 import ProductDetails from "./fakeShopComponent/ProductDetails";
-import ProductListing from "./fakeShopComponent/ProductListing";
 import Product from "./Components/Pages/Product";
 
 import "./App.css";
