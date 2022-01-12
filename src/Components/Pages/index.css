@@ -43,7 +43,7 @@ h6 {
   padding: 2rem 0;
   z-index: 99;
   position: relative;
-  box-shadow: 0 7px 10px rgba(24, 5, 14, 0.911);
+  box-shadow: 0 7px 10px rgba(252, 82, 3, 0.911);
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -91,7 +91,7 @@ h6 {
   border: 0.1rem solid var(--primary-color);
   background-color: transparent;
   /* background-color: rgb(236, 107, 20); */
-  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  box-shadow: 0 0.2rem 0.5rem rgb(243, 92, 4);
 }
 
 .btn-style-border {
@@ -411,7 +411,7 @@ footer {
   padding: 5rem 0;
   background-color: #010231;
   color: #fff;
-  box-shadow: 0 7px 10px rgba(20, 18, 19, 0.911);
+  box-shadow: 0 7px 10px rgba(243, 99, 3, 0.911);
   margin-bottom: 100px;
   /* width: 90%; */
   margin-left: 50px;

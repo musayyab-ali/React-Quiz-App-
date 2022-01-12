@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="container">
             <Link
               className="navbar-brand titlename"
-              to="#"
+              to="/"
               style={{ color: "#fff" }}
             >
               Crunch&&Munch
@@ -75,6 +75,15 @@ const Navbar = () => {
                     style={{ color: "#fff" }}
                   >
                     Blog
+                  </Link>
+                </li>
+                <li className="nav-item titlename">
+                  <Link
+                    className="nav-link"
+                    to="/productlist"
+                    style={{ color: "#fff" }}
+                  >
+                    Shop
                   </Link>
                 </li>
               </ul>

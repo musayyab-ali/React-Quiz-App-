@@ -62,30 +62,26 @@ const Contact = () => {
 
   return (
     <>
-      <section className="contactus-section">
+      <section className="contactus-section" style={{ margin_top: "20px" }}>
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
-                <div className="contact-leftside col-12 col-lg-5">
-                  <h1 className="main-heading fw-bold">
+                <div className="contact-leftside col-12 col-lg-6">
+                  <h1 className="main-heading fw-bold heading">
                     Connect With Our <br /> Sales Team.
                   </h1>
-                  <p className="main-hero-para">
+                  <p className="main-hero-para heading ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Deserunt eaque alias similique.
                   </p>
-                  <figure>
-                    <img
-                      src="./images/hero1.jpg"
-                      alt="contatUsImg"
-                      className="img-fluid"
-                    />
-                  </figure>
+
+                  <div className="map" id="dvMap"></div>
                 </div>
 
                 {/* right side contact form  */}
-                <div className="contact-rightside col-12 col-lg-7">
+
+                <div className="contact-rightside col-12 col-lg-6 form">
                   <form method="POST">
                     <div className="row">
                       <div className="col-12 col-lg-6 contact-input-feild">
@@ -140,8 +136,8 @@ const Contact = () => {
                         <input
                           type="text"
                           name="address"
-                          id=""
-                          className="form-control"
+                          id="map-search"
+                          className="form-control "
                           placeholder="Add Address"
                           value={userData.address}
                           onChange={postUserData}
@@ -170,6 +166,7 @@ const Contact = () => {
                         id="flexCheckChecked"
                       />
                       <label
+                        style={{ color: "black" }}
                         class="form-check-label"
                         className="main-hero-para"
                       >

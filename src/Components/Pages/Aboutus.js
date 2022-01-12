@@ -1,5 +1,5 @@
 import React from "react";
-import QuizHome from "../QuizHome";
+import QuizHome from "../Pages/QuizHome";
 function Aboutus() {
   return (
     <>

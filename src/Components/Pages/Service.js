@@ -17,7 +17,7 @@ function Service() {
               return (
                 <>
                   <div
-                    className="col-11 col-lg-4 col-xxl-4 work-container-subdiv"
+                    className="col-11 col-lg-4 col-xxl-4 work-container-subdiv cards"
                     key={id}
                   >
                     <i className={`fontawesome-style ${logo}`}></i>
