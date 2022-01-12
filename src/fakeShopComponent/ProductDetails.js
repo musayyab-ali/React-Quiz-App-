@@ -25,10 +25,10 @@ const ProductDetails = () => {
     return () => {
       dispatch(removeSelectedProduct());
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [productId]);
   return (
-    <div className="ui grid container">
+    <div className="ui grid container images">
       {Object.keys(product).length === 0 ? (
         <div>...Loading</div>
       ) : (
@@ -36,7 +36,7 @@ const ProductDetails = () => {
           <div className="ui two column stackable center aligned grid">
             <div className="ui vertical divider">AND</div>
             <div className="middle aligned row">
-              <div className="column lp">
+              <div className="column lp detail">
                 <img className="ui fluid image" src={image} alt={title} />
               </div>
               <div className="column rp">
