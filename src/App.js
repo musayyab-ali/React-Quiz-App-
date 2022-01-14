@@ -7,6 +7,7 @@ import Service from "./Components/HomeLayout/Services";
 import About from "./Components/HomeLayout/About";
 import ProductDetails from "./fakeShopComponent/ProductDetails";
 import Product from "./Components/Pages/Product";
+// import ImageZoom from "react-image-zoom";
 
 import "./App.css";
 

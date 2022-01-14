@@ -5,6 +5,9 @@ import Footer from "./footer";
 import { incNumber } from "../../redux/actions/productsActions";
 import { decNumber } from "../../redux/actions/productsActions";
 import { useSelector, useDispatch } from "react-redux";
+// import ImageZoom from "react-image-zoom";
+// import Zoom from "./image";
+import Index from "./image";
 
 const Home = () => {
   const num = useSelector((state) => state.changeTheNumber);
@@ -15,6 +18,7 @@ const Home = () => {
       <Navbar />
       <br />
       <br />
+      <Index />
       <br />
       <div className="main-div">
         <div class="container1">
@@ -45,6 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <br />
       <br />
       <Footer />
